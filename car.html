@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="car[12].png" />
+
+    <script defer url="car.js"></script>
+    <title>
+    car animation
+    </title>
+    
+    <link rel="stylesheet" id="light" href="car.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="hero">
+        <div class="moon" id="dark mode" onclick="swapStyleSheet('car.css')">
+        </div>
+        <div class="sun" id="light mode" onclick="swapStyleSheets('dark.css')">
+            <img src="sun.jpg">
+        </div>
+      
+    <div class="light">
+        
+    </div>
+    <div class="road">
+    </div>
+    <div class="city"> </div>
+    <div class="car"> 
+        <img src="car[12].png"></img>
+    </div>
+    <div class="wheel">
+        <img src="wheel[11].png " class="back">
+        <img src="wheel[11].png " class="front">
+
+        </div>
+</div>
+    <script>
+        function swapStyleSheet(dark){
+            document.getElementById('light').setAttribute('href', dark);
+            document.getElementById('light').animate
+        }
+        function swapStyleSheets(white){
+            document.getElementById('light').setAttribute('href', white);
+        }
+    </script>
+</body>
+</html>
